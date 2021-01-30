@@ -1,0 +1,48 @@
+/* intro writing */
+body {
+  background-color: #34353b;
+  color: rgb(212, 212, 212);
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* nav */
+#nav {position: fixed; left: 0; top: 0; width: 100%;}
+#nav ul {float: left; padding: 10px 40px; }
+#nav ul li {display: inline; }
+#nav ul li a {
+  display: inline-block; 
+  padding: 20px 20px; 
+  color: #fff; 
+  font-weight: normal; 
+}
+
+a:hover {
+  border-bottom: 1px dashed #fff;
+}
+/* /end */
+
+#mypic {
+  float: right;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+#contents {
+  text-align: left;
+  line-height: 1.75;
+  padding: 100px 150px 100px 150px;
+}
+
+h1, h2 {
+  color: white
+}
+
+h1 {
+  font-size: 350%;
+  text-align: center;
+}
+
+ul, p {
+  font-size: 90%;
+}
+
