@@ -1,9 +1,46 @@
-/* intro writing */
-body {
-  background-color: #34353b;
-  color: rgb(212, 212, 212);
-  font-family: Georgia, 'Times New Roman', Times, serif
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+/* general */
+.App{
+  background-color: #ff8c4a;
+  text-shadow: 2px 2px rgb(255, 104, 3);
+  color: #fff;
 }
+
+/* header */
+.App-header {
+  padding-top: 180px;
+  padding-bottom: 200px;
+  color: rgb(255, 244, 83);
+  font-family: 'Raleway', sans-serif;
+  font-size: 400%;
+  text-align: center;
+  text-shadow: 7px 7px rgb(255, 104, 3);
+}
+
+.App-header h2 {
+  color: #fff;
+  margin-top: -3%;
+  margin-bottom: 0%;
+  font-size: 80%;
+}
+
+/* general body */
+.App-body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  text-shadow: 5px 5px rgb(255, 104, 3);
+  color: rgb(255, 244, 83);
+  font-size: 300%;
+}
+
+h3 {
+  font-size: 150%;
+  text-shadow: 3px 3px rgb(255, 104, 3);
+}
+
 
 /* nav */
 #nav {position: fixed; left: 0; top: 0; width: 100%;}
@@ -19,30 +56,38 @@ body {
 a:hover {
   border-bottom: 1px dashed #fff;
 }
-/* /end */
 
-#mypic {
-  float: right;
-  padding-top: 100px;
-  padding-left: 50px;
-}
-
-#contents {
+/* Seak Peak section */
+#intro {
   text-align: left;
   line-height: 1.75;
-  padding: 100px 150px 100px 150px;
+  padding: 50px 150px 100px 150px;
 }
 
-h1, h2 {
-  color: white
+#intro h3 {
+  font-size: 200%;
+  margin-left: 7%;
+  margin-top: -3%;
+  margin-bottom: -3%;
 }
 
-h1 {
-  font-size: 350%;
-  text-align: center;
+/* Interests section */
+#interests {
+  text-align: right;
+  padding: 50px 150px 100px 150px;
 }
 
 ul, p {
-  font-size: 90%;
+  font-size: 100%;
+}
+
+button {
+  border-style: none;
+  background-color: #ff8c4a;
+}
+
+#comment {
+  color: rgb(255, 102, 0);
+  text-shadow: 0.7px 0.7px #fff, -0.7px -0.7px 0 #fff, 0.7px -0.7px 0 #fff, -0.7px 0.7px 0 #fff;
 }
 
