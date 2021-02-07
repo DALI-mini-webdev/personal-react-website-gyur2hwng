@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
 
 /* general */
 .App{
   background-color: #ff8c4a;
-  text-shadow: 2px 2px rgb(255, 104, 3);
   color: #fff;
 }
 
@@ -13,6 +15,7 @@
   padding-bottom: 200px;
   color: rgb(255, 244, 83);
   font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px rgb(255, 104, 3);
   font-size: 400%;
   text-align: center;
   text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4), 
@@ -42,22 +45,6 @@ h2 {
 h3 {
   font-size: 150%;
   text-shadow: 3px 3px rgb(255, 104, 3);
-}
-
-
-/* nav */
-#nav {position: fixed; left: 0; top: 0; width: 100%;}
-#nav ul {float: left; padding: 10px 40px; }
-#nav ul li {display: inline; }
-#nav ul li a {
-  display: inline-block; 
-  padding: 20px 20px; 
-  color: #fff; 
-  font-weight: normal; 
-}
-
-a:hover {
-  border-bottom: 1px dashed #fff;
 }
 
 /* Seak Peak section */

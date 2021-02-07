@@ -1,3 +1,5 @@
+import React from 'react';
+import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 
 function App() {
@@ -69,6 +71,7 @@ function App() {
 
   return (
     <div className="App">
+       <Navbar />
        <header className="App-header">
         <h1>Hi, I'm Gyuri!</h1>
         <h2>Who are you?</h2>
@@ -76,15 +79,6 @@ function App() {
        </header>
 
        <div className="App-body">
-        {/* menu on the top */}
-        <nav id="nav">
-          <ul>
-              <li><a href="App.js">Home</a></li>
-              <li><a href="https://www.google.com">About Me</a></li>
-              <li><a href="https://www.google.com">Present</a></li>
-              <li><a href="https://www.google.com">Future</a></li>
-          </ul>
-        </nav>
     
         <div id="intro">
           {/* Writing */}
