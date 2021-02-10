@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
+import Interest from "./components/Interest/Interest";
 import './App.css';
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
           FUN FACT: My fingers are doublejointed!! <br></br>
           </p>
         </div>
+        
 
         <div id="interests">
           <h2>Interests</h2>
@@ -99,6 +101,8 @@ function App() {
           <p id="comment">click on &#128077; if it's yours too! &#128078; if you're like meh</p>
           {interestMap} 
         </div>
+
+        <Interest />
 
       </div>
     </div>
