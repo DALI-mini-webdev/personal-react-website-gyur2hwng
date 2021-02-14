@@ -60,6 +60,7 @@ class Interest extends Component {
                 <p>Enter image URL of the poster/product/album:</p>
                 <input type="text" value={this.state.newInterestImage} onChange={this.newInterestImageFunction} />
                 <br></br>
+                <br></br>
                 <button onClick={this.rec}>Recommend</button>
                 
             </div>

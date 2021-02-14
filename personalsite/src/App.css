@@ -34,6 +34,7 @@
 /* general body */
 .App-body {
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 200px;
 }
 
 h2 {
@@ -72,12 +73,17 @@ ul, p {
 }
 
 button {
-  border-style: none;
+  border-style: solid;
   background-color: #ff8c4a;
 }
 
 #comment {
   color: rgb(255, 102, 0);
   text-shadow: 0.7px 0.7px #fff, -0.7px -0.7px 0 #fff, 0.7px -0.7px 0 #fff, -0.7px 0.7px 0 #fff;
+}
+
+#catfacts {
+  padding-top: 100px;
+  text-align: center;
 }
 
