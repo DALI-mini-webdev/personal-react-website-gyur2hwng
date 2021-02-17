@@ -35,6 +35,7 @@
 .App-body {
   font-family: 'Raleway', sans-serif;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 h2 {
@@ -74,7 +75,6 @@ ul, p {
 
 button {
   border-style: solid;
-  background-color: #ff8c4a;
 }
 
 #comment {
@@ -84,6 +84,7 @@ button {
 
 #catfacts {
   padding-top: 100px;
-  text-align: center;
+  padding-bottom: 100px;
 }
+
 

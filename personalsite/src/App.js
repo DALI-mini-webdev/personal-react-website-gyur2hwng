@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Interest from "./components/Interest/Interest";
 import axios from 'axios';
 import './App.css';
+import firebase from './firestore/index';
+import ToDoBoard from './components/ToDoBoard';
 
 class App extends Component {
   constructor(props) {
@@ -105,6 +107,8 @@ class App extends Component {
 
   render() {
     console.log(this.state.data);
+    console.log(firebase);
+    console.log(firebase.db);
     return (
       <div className="App">
          <Navbar />
@@ -140,9 +144,14 @@ class App extends Component {
           <Interest />
 
           <div id="catfacts">
+            <h2>Cat Facts</h2>  
             <button onClick={this.fetchData}>click me to get cat facts!</button>
             {this.renderCatFact()}
           </div>
+
+          <h2>To Do Board</h2> 
+          <ToDoBoard />
+          
   
         </div>
       </div>
